@@ -1,7 +1,7 @@
 'use strict';
 
 function initCanvas(){
-	var canvas = document.getElementById('bg');
+	var canvas = document.getElementById('canvas-bg');
 	var ctx = canvas.getContext('2d');
 
 	ctx.canvas.width = window.innerWidth;
